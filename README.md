@@ -22,6 +22,8 @@ Key mapping:
   * Arrow Right: move right
   * Q: Quit or Pause
 
+If you get into trouble with terminal display, you can set environment variable `TERM` to vt100.
+
 ## License
  
 Tetris is released under the MIT license.
