@@ -6,14 +6,21 @@ It requires POSIX Thread and NCurses.
 ## Build and Run
 
 To build tetris, run 'make' inside the directory where you have the source.
-    ```shell
-    $ make
-    ```
+
+```shell
+$ make
+```
+
+Debian/Ubuntu Dependencies:
+```shell
+$ sudo apt install libncurses5-dev
+```
 
 To play the game, run the executable 'tetris'.
-    ```shell	
-    $ ./tetris
-    ```
+
+```shell
+$ ./tetris
+```
 
 Key mapping:
   * Arrow Up: rotate the block
