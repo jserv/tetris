@@ -9,17 +9,18 @@ To build tetris, run 'make' inside the directory where you have the source.
     ```shell
     $ make
     ```
+
 To play the game, run the executable 'tetris'.
     ```shell	
     $ ./tetris
-   ````
+    ```
 
 Key mapping:
-* Arrow Up: rotate the block
-* Arrow Down: drop the block
-* Arrow Left: move left
-* Arrow Right: move right
-* Q: Quit or Pause
+  * Arrow Up: rotate the block
+  * Arrow Down: drop the block
+  * Arrow Left: move left
+  * Arrow Right: move right
+  * Q: Quit or Pause
 
 ## License
  
