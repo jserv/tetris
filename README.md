@@ -33,4 +33,5 @@ If you get into trouble with terminal display, you can set environment variable 
 
 ## License
  
-Tetris is released under the MIT license.
+Tetris is released under the MIT license. Use of this source code is governed by a MIT license
+that can be found in the LICENSE file.

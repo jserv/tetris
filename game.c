@@ -1,3 +1,9 @@
+/* Copyright (c) 2020 National Cheng Kung University, Taiwan.
+ * All rights reserved.
+ * Use of this source code is governed by a MIT license that can be
+ * found in the LICENSE file.
+ */
+
 #include <assert.h>
 #include <pthread.h>
 #include <stdbool.h>

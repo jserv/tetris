@@ -1,6 +1,12 @@
 #ifndef __TETRIS_H__
 #define __TETRIS_H__
 
+/* Copyright (c) 2020 National Cheng Kung University, Taiwan.
+ * All rights reserved.
+ * Use of this source code is governed by a MIT license that can be
+ * found in the LICENSE file.
+ */
+
 #define WINDOW_MAIN_SIZE_X 80
 #define WINDOW_MAIN_SIZE_Y 24
 
