@@ -133,16 +133,14 @@ static struct block *update_current_block(struct block *block)
 
 static bool test_movement(struct block *block)
 {
-    bool status = true;
     for (int i = 0; i < ARRAY_SIZE(block->position->pos); i++) {
         int x = block->origin.x + block->position->pos[i].x;
         int y = block->origin.y + block->position->pos[i].y;
         if (board[y + 1][x + 1]) {
-            status = false;
-            break;
+            return false;
         }
     }
-    return status;
+    return true;
 }
 
 static bool move_block(struct block *block, action_t movement)
