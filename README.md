@@ -23,10 +23,10 @@ $ ./tetris
 ```
 
 Key mapping:
-  * Arrow Up: rotate the block
-  * Arrow Down: drop the block
-  * Arrow Left: move left
-  * Arrow Right: move right
+  * Arrow Up    / k: rotate the block
+  * Arrow Down  / j: drop the block
+  * Arrow Left  / h: move left
+  * Arrow Right / l: move right
   * Q: Quit or Pause
 
 If you get into trouble with terminal display, you can set environment variable `TERM` to vt100.
