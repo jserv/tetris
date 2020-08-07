@@ -136,16 +136,20 @@ input_t get_user_input(void)
         result = INPUT_TIMEOUT;
         break;
     case KEY_LEFT:
+    case 'h':
         result = INPUT_MOVE_LEFT;
         break;
     case KEY_RIGHT:
+    case 'l':
         result = INPUT_MOVE_RIGHT;
         break;
     case KEY_DOWN:
     case ' ': /* space bar */
+    case 'j':
         result = INPUT_DROP;
         break;
     case KEY_UP:
+    case 'k':
         result = INPUT_ROTATE_LEFT;
         break;
     case 'Q':
@@ -224,9 +228,11 @@ bool show_quit_dialog(void)
         input = wgetch(win_quit);
         switch (input) {
         case KEY_LEFT:
+        case 'h':
             choice = QUIT;
             break;
         case KEY_RIGHT:
+        case 'l':
             choice = RESUME;
             break;
         default:
